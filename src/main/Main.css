@@ -1,0 +1,46 @@
+.photos {
+  height: 350px;
+  width: 350px;
+}
+
+.photo-log {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+@media (min-width: 992px) {
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .photo-log {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    height: 500px;
+    border: none;
+    margin-top: -10px;
+  }
+  .photos {
+    position: relative;
+    display: flex;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 275px;
+    margin-top: 15px;
+    width: 350px;
+    flex-direction: column;
+  }
+  .photo-log .photos:focus,
+  .photo-log .photos:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+}

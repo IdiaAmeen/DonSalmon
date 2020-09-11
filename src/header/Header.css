@@ -1,0 +1,12 @@
+#logo {
+  height: 200px;
+  width: 200px;
+  opacity: 0.9;
+  float: right;
+  margin-top: -15px;
+}
+
+.header {
+  height: 200px;
+  background-color: #d3d3d3;
+}
