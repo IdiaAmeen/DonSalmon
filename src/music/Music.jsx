@@ -14,7 +14,7 @@ export default class Music extends Component {
     return (
       <ReactAudioPlayer
         src={soundfile}
-        // preload
+        preload
         autoplay
         controls
         onPlay={(e) => console.log("onPlay")}

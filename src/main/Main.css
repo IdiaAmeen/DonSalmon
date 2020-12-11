@@ -1,4 +1,14 @@
-.photos {
+body {
+  background: url(main.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  /* object-fit: contain; */
+}
+
+/* .photos {
   height: 350px;
   width: 350px;
 }
@@ -43,4 +53,4 @@
     transform: scale(1.5);
     z-index: 1;
   }
-}
+} */
