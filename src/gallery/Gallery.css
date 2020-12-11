@@ -1,13 +1,14 @@
 .gallery {
   display: flex;
   width: 75vw;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
 
   padding: 4% 2%;
   box-sizing: border-box;
   height: 80vh;
-  margin-top: 130px;
-  /* overflow-x: auto; */
+  margin-top: 2550px;
+  /* overflow: scroll; */
 }
 .box {
   /* flex: 1;
@@ -18,7 +19,7 @@
   /* height: 200px; */
   object-fit: contain;
   padding-top: 15px;
-  padding-left: 10px;
+  padding-left: 13.5px;
   padding-right: 15px;
   /* padding: 15px 15px 0px 10px */
   /* margin-top: 0;

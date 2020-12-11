@@ -6,9 +6,7 @@ import asjahh from "./asjahh.mp4";
 export default function VideoJS() {
   const videoSrc = MERCEE;
   const ajah = asjahh;
-  const posterStyle = {
-    objectFit: "contain",
-  };
+
   return (
     <div className="videos">
       {/* {Videos.map((video) => (

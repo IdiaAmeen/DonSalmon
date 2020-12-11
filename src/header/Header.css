@@ -24,4 +24,10 @@
   height: 150px;
   padding: 0;
   margin: 0;
+  display: inline-grid;
+}
+@media only screen and (max-width: 601px) {
+  .header {
+    position: sticky;
+  }
 }
