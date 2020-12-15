@@ -14,6 +14,9 @@ export default function Gallery() {
     "jcHZ0hx.jpg",
     "HegPLNM.png",
     "qQ0Opoz.png",
+    "2Ef2opu.jpg",
+    "tZRgAhD.jpg",
+    "uzdrWAk.jpg",
   ];
 
   const buildURL = (imagePath) => `https://i.imgur.com/${imagePath}`;
