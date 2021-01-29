@@ -1,6 +1,6 @@
 import React from "react";
 import "./Gallery.css";
-import Imgix from "react-imgix";
+
 export default function Gallery() {
   const images = [
     "6dJIpEn.jpg",
