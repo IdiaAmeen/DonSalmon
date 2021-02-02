@@ -3,6 +3,7 @@ import VideoPlayer from "react-video-js-player";
 import "./videos.css";
 import MERCEE from "./MERCEE.mp4";
 import asjahh from "./asjahh.mp4";
+import Reel from "./Reel.mp4";
 export default function VideoJS() {
   const videoSrc = MERCEE;
   const ajah = asjahh;
@@ -25,6 +26,12 @@ export default function VideoJS() {
         width={300}
         height={350}
         poster="https://i.imgur.com/a3q8qmT.jpg"
+      />
+      <VideoPlayer
+        src={Reel}
+        width={300}
+        height={350}
+        poster="https://i.imgur.com/lMXNtWW.png"
       />
     </div>
   );
